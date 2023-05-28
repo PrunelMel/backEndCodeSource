@@ -1,0 +1,69 @@
+body{
+    width : 100%;
+    height : 100vh;
+    background-color: rgb(26, 23, 23);
+}
+
+h1{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 1em;
+    letter-spacing: 0.5em;
+    color:rgb(189, 80, 7);
+}
+.wrapper{
+
+    width: 40%;
+    height: 70%;
+    margin: 100px auto;
+    border: solid rgb(189, 80, 7) 1px;
+    border-radius: 10px;
+    color:  rgb(189, 80, 7);
+    background: rgb(26, 23, 23);
+    
+}
+
+input{
+    display: block;
+    width: 50%;
+    background-color: rgb(26, 23, 23);
+    border: solid 1px rgb(26, 23, 23);
+    border-bottom: solid 1px black ;
+    outline: none;
+    padding: 5px;
+    margin:10px auto;
+}
+
+label{
+    display: block;
+
+    width: 10%;
+    margin-left:50px;
+    
+}
+.content{
+    width: 100%;
+    height: 50%;
+    margin-bottom:50px;
+}
+button{
+    display: block;
+    width: 25%;
+    margin:50px auto;
+    text-decoration: none;
+    border: solid  rgb(189, 80, 7) 2px;
+    text-align: center;
+    color: rgb(189, 80, 7);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.login{
+    display: block;
+    width: 100%;
+    text-align: center;
+    /*text-decoration: none;*/
+    color: rgb(189, 80, 7);
+    
+}

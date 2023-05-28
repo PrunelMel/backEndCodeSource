@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="{{url_for('static',filename='css/doc.css')}}">        
+        <title>Document</title>
+    </head>
+    <body>
+        <form action="{{url_for('choice')}}" method="POST">
+            <div class="container">
+                <h1>Votre situation géographique!!!</h1>
+                <select name="dep" id="dep">
+                    <option value="ALIBORI">ALIBORI</option>
+                    <option value="ATACORA">ATACORA</option>
+                    <option value="DONGA">DONGA</option>
+                    <option value="BORGOU">BORGOU</option>
+                    <option value="COLLINES">COLLINES</option>
+                    <option value="ZOU">ZOU</option>
+                    <option value="PLATEAU">PLATEAU</option>
+                    <option value="OUEME">OUEME</option>
+                    <option value="MONO">MONO</option>
+                    <option value="COUFFO">COUFFO</option>
+                    <option value="ATLANTIQUE">ATLANTIQUE</option>
+                    <option value="LITTORAL">LITTORAL</option>
+                </select>
+                <select name="com" id="com">
+                    <option value="NATITINGOU">NATITINGOU</option>
+                    <option value="U">U</option>
+                    <option value="L">L<L/option>
+                    <option value="I">I</option>
+                    <option value="PARAKOU">PARAKOU</option>
+                </select>
+                <select name="arr" id="arr">
+                    <option value="LOUGOU">LOUGOU</option>
+                    <option value="LOUGOU">LOUGOU</option>
+                    <option value="LOUGOU">LOUGOU</option>
+                    <option value="LOUGOU">LOUGOU</option>
+                </select>
+                <select name="vil" id="vil">
+                    <option value="niambara">NIAMBARA</option>
+                    <option value="sinwan">SINWAN</option>
+                </select>
+                <button type="submit">submit</button> 
+            </div>
+        </form>
+    </body>
+</html>

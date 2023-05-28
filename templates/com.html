@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="{{url_for('static',filename='css/com.css')}}">
+
+        <title>Document</title>
+    </head>
+    <body>
+        <form action="{{url_for('search_arr')}}" method="POST">
+            <div class="container">
+
+                <h1>Dans quelle commune vous vous trouvez vous?</h1>
+                <select name="com" id="com">
+                    <option value="NATITINGOU">NATITINGOU</option>
+                    <option value="U">U</option>
+                    <option value="L">L<L/option>
+                    <option value="I">I</option>
+                    <option value="PARAKOU">PARAKOU</option>
+                </select>
+                <button type="submit">submit</button>
+            </div>
+            
+        </form>
+    </body>
+</html>

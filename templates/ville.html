@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="{{url_for('static',filename='css/ville.css')}}">
+
+        <title>Document</title>
+    </head>
+    <body>
+        <form action="{{url_for('selected_qr')}}" method="POST">
+            <div class="container">
+                <h1>Dans quelle ville vous trouvez vous?</h1>
+                <select name="vil" id="vil">
+                    <option value="niambara">NIAMBARA</option>
+                    <option value="sinwan">SINWAN</option>
+                </select>
+                <button type="submit">submit</button>
+                
+            </div>
+        </form>
+    </body>
+</html>

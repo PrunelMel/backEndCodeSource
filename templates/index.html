@@ -1,0 +1,24 @@
+<!DOCTYPE >
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="{{url_for('static',filename='css/stylesheet.css')}}">
+        <title>Document</title>
+    </head>
+    <body>
+        <form action="{{url_for('login_s')}}" method="POST">
+
+            <div class="wrapper">
+                <h1>AUTHENTIFICATION</h1>
+                <br>
+                <br>
+                <br>
+                <div class="content">
+                    <label for="name">Identifiant</label><br><input type="text" name="name" required placeholder=""><br>
+                    <label for="pass">Password</label><br><input type="password" name="pass" required placeholder=""><br><br>
+                    <button type="submit">submit</button>
+                </div> 
+            </div>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="{{url_for('static',filename='css/arr.css')}}">
+
+        <title>Document</title>
+    </head>
+    <body>
+        <form action="{{url_for('search_qr')}}" method="POST">
+            <div class="container">
+
+                <h1>Dans quelle arrondissement vous situez vous?</h1>
+                <select name="arr" id="arr">
+                    <option value="LOUGOU">LOUGOU</option>
+                    <option value="LOUGOU">LOUGOU</option>
+                    <option value="LOUGOU">LOUGOU</option>
+                    <option value="LOUGOU">LOUGOU</option>
+                </select>
+                <button type="submit">submit</button>
+            </div>
+            
+        </form>
+    </body>
+</html>
